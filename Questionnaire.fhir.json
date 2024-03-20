@@ -1,0 +1,30 @@
+{
+    "resourceType": "Questionnaire",
+    "id":"VAT",
+    "title": "VAT",
+    "status": "draft",
+    "item": [
+        {
+            "text": "form_type_id",
+            "type": "string",
+            "linkId": "form_type_id",
+            "disabledDisplay": "hidden",
+            "initial": [
+                {
+                    "valueString": "57a2f099-03e5-4d3f-9d5d-94fe9a33afea"
+                }
+            ]
+        },
+        {
+            "text": "pathway_id",
+            "type": "string",
+            "linkId": "pathway_id",
+            "disabledDisplay": "hidden",
+            "initial": [
+                {
+                    "valueString": "04b5983f-f862-4366-afb1-b8a9ea29978e"
+                }
+            ]
+        }
+    ]
+}

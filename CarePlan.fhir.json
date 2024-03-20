@@ -1,0 +1,22 @@
+{
+    "resourceType" : "CarePlan",
+    "status": "draft",
+    "intent": "plan",
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://abc.com",
+                    "code": "123",
+                    "display": "nursing admission"
+                }
+            ]
+        }
+    ],
+    "subject": {
+        "type": "Patient",
+        "id":"16a128f6-1236-4888-9fba-bbfe6f55755c"
+    },
+    "title": "nursing admission",
+    "description": "A 45-year-old male with a history of heart disease and one pack a day smoking habit x 30 years. A wound has developed to the right inner calf measuring 3cm x 3cm x 1cm. The wound base is pale, with yellow slough present; wound edges are round, peri-wound skin is very dry, and no exudate is present. There is no undermining or tunneling. The client complains of pain at night when lying down."
+}
